@@ -64,5 +64,29 @@ background: linear-gradient(25deg, rgba(34,193,195,1) 26%, rgba(156,246,31,1) 55
     text-align: center;
     color: white;
     font-size: 20px;
-    text-shadow: 1px 2px 9px rgb(0 0 0);
+    text-shadow: 1px 2px 9px rgb(0 0 0); 
 }
+@media (max-width:768px){
+    h1{
+        text-align: center;
+    }
+    section{
+      display: block;  
+    }
+    .picture{
+    width: 100%;
+    }
+    .text{
+        width: 100%;
+    }
+    .text h1{
+        font-weight: bold;
+        text-align: center;
+    }
+    .text p{
+        padding: 0 20px;
+    }
+}
+
+
+    
