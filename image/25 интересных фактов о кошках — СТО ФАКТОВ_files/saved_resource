@@ -1,0 +1,45 @@
+.site-main { padding: 0 1% 2% 0%; }
+
+#main .type-page {
+    padding: 20px 1% 2% 0%;
+}
+
+/* reduce white space above and below previous &amp; next navigation */
+.post-navigation a {
+padding-bottom: 30px;
+padding-top: 10px;
+}
+
+.entry-date {
+    display: none;
+}
+
+.author {
+    display: none;
+}
+
+.type-attachment .entry-title,
+.author-description,
+.widget,
+.entry-content,
+.entry-summary,
+.page-content,
+.comment-content,
+code,
+kbd,
+tt,
+var,
+samp,
+pre,
+blockquote,
+q {
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    word-wrap: none;
+}
+
+ins {
+	background: #fff !important;
+}

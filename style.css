@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    width: 100%;
+}
+.picture{
+    width:25% ;
+}
+
+.picture img{
+    width:100% ;
+}
+
+.text{
+    width:70%;
+}
+
+.songs{
+    text-align: center;
+    font-size: 20px;
+}
+body{
+    background: rgb(34,193,195);
+background: linear-gradient(25deg, rgba(34,193,195,1) 26%, rgba(156,246,31,1) 55%, rgba(152,244,36,1) 55%, rgba(253,187,45,1) 80%);;}
+
+.accordion {
+    background-color: rgba(250, 166, 9, 0);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border-top: 1px solid #ccc;
+    font-size: 20px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background: rgb(34,193,195);
+    background: linear-gradient(25deg, rgba(34,193,195,1) 1%, rgba(246,31,31,1) 54%, rgba(139,250,0,1) 75%, rgba(253,187,45,1) 95%);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background: rgb(16,113,207);
+    background: linear-gradient(90deg, rgba(16,113,207,1) 0%, rgba(222,50,255,1) 53%, rgba(0,212,255,1) 100%);
+    display: none;
+    overflow: hidden;
+}
+
+.panel.active{
+    display: block;
+}
+
+.panel p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 2px 9px rgb(0 0 0);
+}
